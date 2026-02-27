@@ -14,6 +14,6 @@ void receiv() {
   if (age >= 21 && age <= 60 && salary >= 5000 && outstanding == 'no') {
     print('Loan Approved');
   } else {
-    print('Rejected');
+    print('Loan Rejected');
   }
 }
